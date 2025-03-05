@@ -5,7 +5,6 @@ import torch
 from torch.utils.data import DataLoader, TensorDataset
 import glob
 
-##Corpus tokenization
 nlp = spacy.load('pl_core_news_sm')
 nlp.max_length = 2643570
 
@@ -29,7 +28,7 @@ def define_vocab(file):
   word_to_idx["<PAD>"] = len(word_to_idx) + 1 #Padding token
   return word_to_idx
 
-#Creating vocabs with indices
+#Creating special indices
 PAD_IDX = 0
 SOS_IDX = 1
 EOS_IDX = 2
@@ -80,7 +79,7 @@ def pad_sentences(sentences, max_length, pad_idx=0):
             #Adding padding if the sentence is shorter than max_length
             padded_sentence = sentence + [pad_idx] * (max_length - len(sentence))
         else:
-            #Cutting the sentence if it. is longer than max_length
+            #Cutting the sentence if it is longer than max_length
             padded_sentence = sentence[:max_length]
         padded_sentences.append(padded_sentence)
     return padded_sentences

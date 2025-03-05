@@ -17,8 +17,8 @@ class EncoderGRU(nn.Module):
         embedded = self.embedding(src)  # (batch_size, seq_len, embedding_dim)
         outputs, hidden = self.gru(embedded)  # outputs: (batch_size, seq_len, hidden_dim), hidden: (num_layers, batch_size, hidden_dim)
         return outputs, hidden  # Returning both outputs and hidden
-#Attention
 
+#Attention
 class Attention(nn.Module):
     def __init__(self, hidden_dim):
         super(Attention, self).__init__()
@@ -42,6 +42,7 @@ class Attention(nn.Module):
 
         attention_output = torch.softmax(attention, dim=1)
         return attention_output # (batch_size, seq_len)
+    
 #Decoder
 class DecoderGRU(nn.Module):
     def __init__(self, output_dim, embedding_dim, hidden_dim, num_layers, dropout):
