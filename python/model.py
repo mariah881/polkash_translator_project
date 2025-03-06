@@ -1,4 +1,5 @@
 #Script containing model components
+import json
 import torch
 import torch.nn as nn
 import random
@@ -107,3 +108,62 @@ class Seq2Seq(nn.Module):
           trg_input = trg[:, t] if teacher_force else top1
 
       return outputs
+    
+    def infer(self, src, start_token_idx, end_token_idx, max_len=20):
+            """
+            The function performs inference to generate output sequences from the source input.
+
+            Args:
+                src (Tensor): Source sequences of shape (batch_size, seq_len).
+                start_token_idx (int): Index of the start token (e.g., <sos>).
+                end_token_idx (int): Index of the end token (e.g., <eos>).
+                max_len (int, optional): Maximum length of the output sequence. Defaults to 20.
+
+            Returns:
+                list: A list of lists containing the generated token indices for each sequence in the batch.
+            """
+            batch_size = src.shape[0]
+            encoder_outputs, hidden = self.encoder(src)
+           
+            #Initializing decoder input with start token
+            decoder_input = torch.full((batch_size,), start_token_idx, device=self.device)
+          
+            #Tensor to store output sequences
+            outputs = torch.zeros(batch_size, max_len, dtype=torch.long, device=self.device)
+          
+            for t in range(max_len):
+                output, hidden, _ = self.decoder(decoder_input, hidden, encoder_outputs, self.attention)
+                pred_token = output.argmax(1)
+                outputs[:, t] = pred_token
+                decoder_input = pred_token
+                
+            #Trimming sequences after the end token
+            final_outputs = []
+            for i in range(batch_size):
+                seq = outputs[i].tolist()
+                print(f"Sequence {i}: {seq}")
+              
+                try:
+                    end_idx = seq.index(end_token_idx)
+                    final_outputs.append(seq[:end_idx])
+                except ValueError:
+                    final_outputs.append(seq)
+
+            return final_outputs
+    
+def create_model(input, output, device = 'cpu'):
+  #Defining model dimensions (dimensions have been adjusted due to the limits of available GPU)
+  EMBEDDING_DIM = 256 #Embeddings dimensions
+  HIDDEN_DIM = 128 #Hidden layer dimensions
+  NUM_LAYERS = 2
+  DROPOUT = 0.3
+
+  #Defining model components (encoder, attention mechanism, decoder)
+  encoder = EncoderGRU(input, EMBEDDING_DIM, HIDDEN_DIM, NUM_LAYERS, DROPOUT)
+  attention = Attention(HIDDEN_DIM)
+  decoder = DecoderGRU(output, EMBEDDING_DIM, HIDDEN_DIM, NUM_LAYERS, DROPOUT)
+
+  #Model seq2seq (using components defined above)
+  model = Seq2Seq(encoder, decoder, attention, device).to(device)
+
+  return model

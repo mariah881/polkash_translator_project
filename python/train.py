@@ -2,8 +2,9 @@
 import torch
 import torch.optim as optim
 import torch.nn as nn
-from model import EncoderGRU, Attention, DecoderGRU, Seq2Seq
+from model import create_model
 from preprocessing import load_data
+import json
 
 def setup_and_train():
   """
@@ -16,23 +17,12 @@ def setup_and_train():
   #Defining GPU
   device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-
   train_loader, test_loader, INPUT_DIM, OUTPUT_DIM = load_data()
 
-  #Defining model dimensions (dimensions have been adjusted due to the limits of available GPU)
-  EMBEDDING_DIM = 256 #Embeddings dimensions
-  HIDDEN_DIM = 128 #Hidden layer dimensions
-  NUM_LAYERS = 2
-  DROPOUT = 0.3
-
-  #Defining model components (encoder, attention mechanism, decoder)
-  encoder = EncoderGRU(INPUT_DIM, EMBEDDING_DIM, HIDDEN_DIM, NUM_LAYERS, DROPOUT)
-  attention = Attention(HIDDEN_DIM)
-  decoder = DecoderGRU(OUTPUT_DIM, EMBEDDING_DIM, HIDDEN_DIM, NUM_LAYERS, DROPOUT)
-
-  #Model seq2seq (using components defined above)
-  model = Seq2Seq(encoder, decoder, attention, device).to(device)
-
+  # dim size comes from pre-training loading the data. we keep track of this and if it changes
+  # we need to change it here as well.
+  model = create_model(input=56241, output=60132, device=device)
+ 
   # Optimizer and loss
   optimizer = optim.Adam(model.parameters(), lr=0.0005, weight_decay=1e-5)
   criterion = nn.CrossEntropyLoss(ignore_index=0)
