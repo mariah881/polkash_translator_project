@@ -44,7 +44,7 @@ def inference(src_text, src_vocab, tgt_vocab, model_path='model.pt', max_len=10)
     end_token_idx = tgt_vocab['<EOS>']
 
 
-    print(f"Target indices: {src_indices}")
+    print(f"Source indices: {src_indices}")
 
     #Inference
     with torch.no_grad():
@@ -52,7 +52,7 @@ def inference(src_text, src_vocab, tgt_vocab, model_path='model.pt', max_len=10)
 
     #Converting to tokens
     for seq in output_sequences:
-        tokens = [tgt_vocab.get(idx, '<UNK>') for idx in seq if idx not in [start_token_idx, end_token_idx]]
+        tokens = [word for word,idx in tgt_vocab.items() if idx in seq and word not in ['<SOS>', '<EOS>', '<UNK>']]
         sentence = ' '.join(tokens)
         print(f"Translated sentence: {sentence}")
 
@@ -66,6 +66,6 @@ if __name__ == "__main__":
     print(f"Max target index: {max(tgt_vocab.values(), default=-2)}")
 
     #Inference
-    input_text = "Dzień dobry" #Example input
+    input_text = "moja ciocia dwa wiadra" #Example input
     normalized_input = input_text.lower()
     inference(normalized_input, src_vocab, tgt_vocab, model_path='../model_seq2seq.pt', max_len=10)
