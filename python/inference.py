@@ -58,14 +58,14 @@ def inference(src_text, src_vocab, tgt_vocab, model_path='model.pt', max_len=10)
 
 if __name__ == "__main__":
     #Loading vocabularies with size caps
-    src_vocab = load_vocab_from_json('src_vocab.json', max_size=56244)
-    tgt_vocab = load_vocab_from_json('tgt_vocab.json', max_size=60135)
+    src_vocab = load_vocab_from_json('data/src_vocab.json', max_size=56244)
+    tgt_vocab = load_vocab_from_json('data/tgt_vocab.json', max_size=60135)
 
     #Checking vocabulary max indexes
     print(f"Max source index: {max(src_vocab.values(), default=-2)}")
     print(f"Max target index: {max(tgt_vocab.values(), default=-2)}")
 
     #Inference
-    input_text = "moja ciocia dwa wiadra" #Example input
+    input_text = "Dzień dobry" #Example input
     normalized_input = input_text.lower()
     inference(normalized_input, src_vocab, tgt_vocab, model_path='../model_seq2seq.pt', max_len=10)
