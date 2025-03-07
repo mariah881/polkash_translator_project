@@ -4,6 +4,25 @@ The project consists of a Polish-Kashubian translator based on a seq2seq model, 
 
 The model was trained and evaluated using the Polish-Kashubian Parallel Translation Corpus (Olewniczak et al., 2024).
 
+## Installation 
+1. Clone the repository
+    ```bash
+   git clone git@github.com:mariah881/polkash_translator_project.git
+    ```
+2. Navigate to the project directory
+    ```bash
+    cd polkash_translator_project
+    ```
+3. Install dependencies
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
+
+
+
+
 
 ## References
 
