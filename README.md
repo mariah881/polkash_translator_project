@@ -17,6 +17,10 @@ The model was trained and evaluated using the Polish-Kashubian Parallel Translat
     ```bash
     pip install -r requirements.txt
     ```
+4. Download the model from HuggingFace using the link below:
+    ```bash
+    https://huggingface.co/hmaria/polkash_translator_project
+    ```
 4. Run the command below to load the model and perform inference:
     ```bash
     cd python

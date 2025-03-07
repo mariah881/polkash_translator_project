@@ -68,4 +68,4 @@ if __name__ == "__main__":
     #Inference
     input_text = "Dzień dobry" #Example input
     normalized_input = input_text.lower()
-    inference(normalized_input, src_vocab, tgt_vocab, model_path='../model_seq2seq.pt', max_len=10)
+    inference(normalized_input, src_vocab, tgt_vocab, model_path='../polkash_translate_model.pt', max_len=10)
