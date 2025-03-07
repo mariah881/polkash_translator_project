@@ -19,7 +19,7 @@ The model was trained and evaluated using the Polish-Kashubian Parallel Translat
     ```
 4. Download the model from HuggingFace using the link below:
     ```bash
-    https://huggingface.co/hmaria/polkash_translator_project
+    [Link text](https://huggingface.co/hmaria/polkash_translator_project)
     ```
 4. Run the command below to load the model and perform inference:
     ```bash
