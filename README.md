@@ -17,10 +17,12 @@ The model was trained and evaluated using the Polish-Kashubian Parallel Translat
     ```bash
     pip install -r requirements.txt
     ```
-
-
-
-
+4. Load the Model
+Run the command below to load the model and perform inference:
+  ```bash
+  cd python
+  python inference.py
+  ```
 
 
 
