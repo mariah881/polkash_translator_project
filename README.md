@@ -5,7 +5,7 @@ The project consists of a Polish-Kashubian translator based on a seq2seq model, 
 The model was trained and evaluated using the Polish-Kashubian Parallel Translation Corpus (Olewniczak et al., 2024).
 
 
-**Kashuby** (kaszub. Kaszëbë or Kaszëbskô) - cultural region in northern Poland, part of Gdansk Pomerania. It is inhabited, among others, by Kashubians (indigenous Pomeranians) (_Kaszuby_, 2024). Kashubian has had regional language status in Poland since 2005, and is spoken daily by 87.6 thousand people (_Język kaszubski_, 2024).
+**Kashuby** (kaszub. Kaszëbë or Kaszëbskô) - cultural region in northern Poland, part of Gdansk Pomerania. It is inhabited, among others, by Kashubians (indigenous Pomeranians) (Wikipedia, 2024). Kashubian has had regional language status in Poland since 2005, and is spoken daily by 87.6 thousand people (Wikipedia, 2024).
 
 <img src="./assets/kaszuby.png" alt="Kaszuby" width="200" />
 
@@ -87,6 +87,7 @@ For our machine translation system, we chose a **Seq2Seq model with an Attention
 - **GRU efficiency in sequence processing** – compared to LSTM, GRU has fewer parameters, which means faster training and lower memory requirements while maintaining comparable performance.
 - **Attention mechanism** – allows the model to dynamically "focus" on different parts of the input sentence, improving translation quality, especially for longer sequences.
 
+The model was trained using **NVIDIA Tesla T4 GPU**.
 
 ### Hyperparameters:
 
@@ -94,33 +95,39 @@ For our machine translation system, we chose a **Seq2Seq model with an Attention
 - **Number of layers: 2** – sufficient to model sentence dependencies without excessively increasing computation time.
 - **Hidden size: 128** – chosen experimentally to ensure sufficient model expressiveness without overloading the GPU.
 - **Dropout: 0.3** – added to reduce overfitting.
-- **Learning rate: 0.0005** – chosen to ensure stable training without overly slow convergence.
 - **Optimizer: Adam** – provides adaptive learning rate adjustment.
+- **Learning rate: 0.0005** – chosen to ensure stable training without overly slow convergence.
+- **Weight decay: 1e-5** - used to prevent overfitting by penalizing large weights in the model.
 
+## Evaluation
+
+For evaluating model's performance, we implemented cross entropy loss while training the model.
 
 ## Overfitting and Its Solution
 
-Initially, our model showed signs of overfitting – it trained for too long, even when the validation loss started increasing. Loss analysis showed:
+Initially, our model showed signs of overfitting – the model kept training even when the validation loss started increasing. There was also a significant difference between train loss and validation loss, which could also mean model's overfitting. Therefore we decided to apply early stopping. Loss analysis showed:
 
 **Before adding early stopping:**
 
-The model trained for the full 5 epochs, despite the validation loss increasing after the first epoch. In epochs 2–5 training loss continued improving (~2.11 by epoch 5), but validation loss rose to 5.47 in epoch 4, then slightly decreased to 5.33 in epoch 5. It means the model "memorized" the training data instead of generalizing.
+The model trained for the full 5 epochs, despite the validation loss increasing after the first epoch. In epochs 2–5 training loss continued improving (~2.11 by epoch 5), but validation loss rose to 5.47 in epoch 4, then slightly decreased to 5.33 in epoch 5. The increasing validation loss 
+and the difference of results in train and validation results mean the model "memorized" the training data instead of generalizing.
 
 **After adding early stopping:**
 
 Training stopped after 3 epochs (we used `patience = 2`, meaning training stops if validation loss does not improve for 2 consecutive epochs).
 - **Epoch 1:** training loss **2.48**, validation loss **4.41**.
 - **Epoch 2:** training loss **2.24**, validation loss **4.44**.
-- **Epoch 3:** training loss **2.21**, validation loss **4.49** (worse, triggering early stopping).
+- **Epoch 3:** training loss **2.21**, validation loss **4.49** (higher than the loss after the first epoch, triggering early stopping).
 
 **Effects:**
-- The model did not overfit, and validation results were better than before (validation loss dropped from **5.47 to 4.49**).
+- Validation results were better than before (validation loss dropped from **5.47 to 4.41**). Nevertheless the model still showed signs of overfitting - 
+train loss was significantly lower than validation loss and the overall validation loss was high.
 
- Training results can be found in the `training_results/` folder.
+Training results can be found in the `training_results/` folder.
 
 ### Model Performance
 
-Unfortunately, the model does not produce correct translations. The results suggest that the training process did not converge properly, likely due to insufficient training data, suboptimal hyperparameters, or an inadequate learning rate. Further improvements could involve fine-tuning the training process, experimenting with different architectures, or expanding the dataset to improve generalization.
+Unfortunately, the model does not produce satisfactory translations. The results suggest that the training process did not converge properly, likely due to insufficient training data and suboptimal hyperparameters. The limitations of the available GPU influenced our decision to adjust certain parameters, particularly the embedding dimensions, number of layers and hidden size. While higher values for these hyperparameters could improve the model's performance, they would also require more GPU memory, and our model had to balance performance with memory constraints. The choice of learning rate was also influenced by these memory limitations. Future improvements could involve fine-tuning the hyperparameters using Bayesian Optimization or expanding the dataset to enhance generalization.
 
 #### Team Contribution
 
