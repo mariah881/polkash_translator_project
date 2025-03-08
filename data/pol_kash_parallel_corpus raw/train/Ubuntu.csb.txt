@@ -1,0 +1,145 @@
+Nôrzãdza kòmpresującé/dekòmpresującé zip
+System kòntoli wersji Bazaar
+Letczi w ùżëcym system kòntroli wersji
+Binarny czerownik X.Org ATI
+Òptimizowóné przëspieszenié OpenGL dlô nowszëch kartów graficznëch ATI
+Jinstalatór wtékôcza Adobe Flash dlô produktów Mozillë Firefox
+Wtëkôcz Adobe Flash
+Nôrzãdza pùltu
+Słowôrz, analizatór ùżëcô cwiardégò diskù, przezérnik rapòrtów, szëkôsz
+Wtëkôcz Java
+Wtëkôcz dlô przezérników sécowëch
+Panika Kernela
+Czãsto ùżëwóné programë z restrikcjama dlô Kubuntu
+Restrikcyjné dodatczi Kubuntu
+LXDE òkrãżé pùltu Lightweight
+Meta paczét dlô
+Klient MySQL
+Serwer MySQL
+Binarny czérownik NVidia
+wersjô czérownik
+Hardwôrowô akceleracjô OpenGL dlô kartów graficznëch NVidia
+Binarny czérownik
+Hardwôrowô akceleracjô OpenGL dlô starszëch kartów graficznëch NVidia
+Kòlekcjô darmòwëch lopków ClipArt
+do kòmùnikacji
+Òprzestóno na żądanié brëkòwnika.
+Zakôzóny céch w URI
+Pùsti céch w kluczu=wôrtnota
+Wëjimk
+Réżka URL je za długô
+Włączenié ni darzëło sã
+Nieznóny kanał
+Kanał nie je znóny
+Włączenié kanału ni darzëło sã
+Lëchi lopk
+Spisënk softwôrë mô felã
+Je to cãżkô fela systemë sprôwianiô paczétama.
+Proszã szëkac za zepsëtima paczétama z pòmòcą programë Synaptic.
+Sprôwdzëc prawa przëstãpù do lopków ë pòprôwnosc lopka etcaptsources.list
+A pò tim zladowac znowa paczétë brëkùjąc pòlétu sudo apt-get update ë sudo apt-get install -f.
+kùńczenié
+Pòdónô lëchô adresa URL
+Nieòbsłëgiwôny protokół
+Paczét je wirtualnym paczétã.
+Ni mòże nalezc paczétu.
+Paczét ju je winstalowóny.
+Ni mòże winstalowac
+Paczétowi je nót wersëja òd 2, przëstãpnô je rówank blós 1
+Włączë dodôwné kòmpònentë
+Włączenié dodôwnegò kanału softwôrë
+Włączëc nôslédny kanał softwôrë?
+Winstalowac dodôwną softwôrã?
+Winstalowac paczét?
+Òpisënk
+Instalëjë
+Czë òpisóny pòlét mô òbsłëgiwac URL-e ôrtu apt.
+Òznôcżô, czë pòlét òpisóny w kluczu mô òbsłëgiwac URL-e ôrtu apt.
+Programa òbsłëgiwôjącô adresë URL ôrtu apt
+Pòlét brëkòwóny do òbsłëdżi adresów URL ôrtu apt, jeżlë włączoné.
+Zrëszë pòlét w terminalu
+Òznôczô czë programa òbsłëgiwôjącô adresã URL mô bëc zrëszany w terminalu.
+OK
+Òprzestóń
+Zrëszë znowa
+Dali
+Òptacëje zrëszaniô
+Wińdzenié
+Òpùszczôsz graficzné menu zrëszaniô systemë i zrësziwôsz tekstowi interfejs.
+Pòmòc
+Ladownô programa
+Fela IO
+Zmieni sztartowi disk
+Włożë sztartowi disk.
+To je sztartowi disk. Proszã włożëc sztartowi disk.
+To nie je dobri sztartowi disk. Proszã włożëc sztartowi disk.
+Parola
+Wpiszë swòją parolã
+Fela DVD
+To je dwastarnowô DVD. Môsz zrëszoną systemã z drëdżi starnë. Òbrócë platã DVD ë kòntinuùjë.
+Wëłączë
+Chcesz zatrzëmac terô systemã?
+Jinsze òptacëje
+Jãzëk
+Klawiatura
+Tribë
+Zwëkòwi
+Awansowóny ôrt
+Przistãpnosc
+Felënk
+Wësoczi kòntrast
+Lupa
+Czëtôrz ekranu
+Terminal Brailla
+Mòdifikator klawiaturë
+Ekranowô klawiatura
+Rëchòwé problemë - przestôwniczi
+Wszëtkò
+Wëpróbùjë Ubuntu bez instalacëji
+Wëpróbùjë Kubuntu bez instalacëji
+Wëpróbùjë Edubuntu bez instalacëji
+Wëpróbùjë Xubuntu bez instalacëji
+Wëpróbùjë Ubuntu MID bez instalacëji
+Wëpróbùjë Ubuntu Netbook bez instalacëji
+Wëpróbùjë Kubuntu Netbook bez instalacëji
+Wëpróbùjë Lubuntu bez instalacëji
+Zrëszanié Kubuntu
+Ùżëjë diskù z aktualizacëjama czerowników
+Instalëjë w tesktowim ôrce
+Instalëjë Kubuntu w tekstowim ôrce
+Instalëjë Edubuntu w tekstowim ôrce
+Instalacëjô Xubuntu w tekstowim ôrce
+Instalacëjô Ubunutu
+Instalacëjô Kubuntu
+Instalacëjô Edubuntu
+Instalacëjô Xubuntu
+Instalacëjô serwera Ubuntu
+Instalacëjô dlô wielu serwerów z MAAS
+Instalëjë Ubuntu Studio
+Instalëjë Ubuntu MID
+Instalacëjô Ubuntu Netbook
+Instalacëjô Kubuntu Netbook
+Instalacëjô Lubuntu
+Instalacëjô robòczy stacëji
+Instalacëjô serwera
+Instalacëjô OEM dlô wërôbiôrzów
+Instalacëjô serwera LAMP
+Instalacëjô serwera LTSP
+Instalacëjô bezdiskòwégò serwera
+Instalacëjô systemë wëłączaniô z wiérztą pòlétów
+Instalacëjô minimalny systemë
+Instalacëjô minimalny wirtulany maszinë
+Sprôwdzenié diskù na fele
+Ùprôwi pòpsëtą systemã
+Test pamiãce
+Zrëszë systemã z pierszegò cwiardegò diskù
+Blós wòlnô softwôra
+Aùtomatnô reinstalacëjô Dell
+Instalëjë Mythbuntu
+Wëpróbùjë Mythbuntu bez instalacëji
+Programanie je terô zainstalowónô.
+Mòżesz ją zainstalowac wpisując
+Abë zrëszëcpòproszë swòjégò sprôwnika ò zainstalowanié paczétu
+Programãmòże nalezc w nëch paczétach
+Spróbùjë
+Pòproszë swòjégò sprôwnika ò zainstalowanié jednegò z nëch

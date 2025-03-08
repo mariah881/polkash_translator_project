@@ -1,0 +1,255 @@
+Domyślny motyw
+Menedżer archiwów
+Tworzenie i modyfikowanie archiwów
+Rozpakuj tutaj
+Rozpakuj do
+Opcje
+Wczytanie opcji
+Inne opcje
+Utwórz
+Położenie
+Inne działania
+Hasło
+Usuń
+Na przykład .txt; .doc
+Wszystkie pliki
+Wybrane pliki
+Inne opcje
+Zaktualizuj
+Proszę wybrać pliki do aktualizacji
+Pliki
+Rozpakuj pliki
+Wymagane hasło
+Otwarcie pliku nie powiodło
+Plik obrazunie zawiera danych
+Wczytanie obrazu się nie powiodło
+przyczyna nieznana
+prawdopodobnie uszkodzony plik obrazu
+Wczytanie animacji się nie powiodło
+prawdopodobnie uszkodzony plik animacji
+Nie można wczytać modułu wczytującego obrazy
+Moduł do wczytywania obrazów nie eksportuje właściwego interfejsu
+Być może pochodzi on z innej wersji GTK?
+Obrazy typunie są obsługiwane
+Nie można rozpoznać formatu obrazu w pliku
+Nierozpoznany format pliku obrazu
+Wczytanie obrazu się nie powiodło
+Błąd podczas zapisywania do pliku obrazu
+Ta kopia gdk-pixbuf nie obsługuje zapisywania obrazu w formacie
+Brak pamięci do zapisu obrazu do odczytania
+Otwarcie pliku tymczasowego się nie powiodło
+Odczytanie pliku tymczasowego się nie powiodło
+Otwarcie do zapisania się nie powiodło
+Zamknięcie pliku po zapisaniu w nim obrazu się nie powiodło.
+Część danych mogła nie zostać zapisana
+Brak pamięci do zapisu obrazu do bufora
+Błąd wewnętrzny moduł wczytujący obrazynie ukończył działania, nie podając przyczyny niepowodzenia
+Funkcja przyrostowego wczytywania obrazów typu nie jest obsługiwana
+Nieznany format obrazu
+Nieprawidłowy nagłówek w animacji
+Brak pamięci do wczytania animacji
+Format obrazu ANI
+Błędny nagłówek obrazu BMP
+Brak pamięci na wczytanie bitmapy z pliku
+Nie można zapisać do pliku BMP
+Format obrazu BMP
+Format obrazu GIF
+Format obrazu ICO
+Jakość obrazu JPEG musi być wartością od 0 do 100. Wartość nie jest poprawna.
+Format obrazu JPEG
+Odczytanie obrazu GIF się nie powiodło
+Wewnętrzny błąd w module wczytującym obrazy GIF
+Brak pamięci na wczytanie pliku GIF
+Brak pamięci na utworzenie ramki w pliku GIF
+Plik nie wydaje się być plikiem GIF
+Nieprawidłowy nagłówek ikony
+Brak pamięci na wczytanie ikony
+Szerokość ikony jest zerowa
+Wysokość ikony jest zerowa
+Brak pamięci na wczytanie pliku ICO
+Obraz jest za duży, aby mógł zostać zapisany jako ICO
+Błąd podczas interpretowania pliku obrazu JPEG
+Brak pamięci na wczytanie pliku.
+Spróbuj zakończyć pracę niektórych programów, aby zwolnić pamięć
+Brak pamięci na wczytanie pliku JPEG
+Nie można utworzyć nowego bufora piksmapy
+Nie można przydzielić pamięci dla obrazu PCX
+Nie odnaleziono palety na końcu danych PCX
+Format obrazu PCX
+Format GdkPixdata
+Liczba bitów na kanał obrazu PNG jest nieprawidłowa.
+Brak pamięci na wczytanie pliku PNG
+Brak pamięci na przechowanie obrazu
+spróbuj zakończyć pracę niektórych programów, aby zwolnić pamięć
+Klucze elementów tekstowych PNG muszą mieć długość od do znaków.
+Klucze elementów tekstowych PNG muszą być znakami ASCII.
+Format obrazu PNG
+Plik PNM zawiera niepoprawny bajt początkowy
+Plik PNM zawiera obraz o szerokości
+Plik PNM zawiera obraz o wysokości
+Maksymalna wartość koloru w pliku PNM wynosi
+Maksymalna wartość koloru w pliku PNM jest za duża
+Brak pamięci na wczytanie struktury kontekstu PNM
+Brak pamięci na wczytanie pliku PNM
+Błędny nagłówek obrazu RAS
+Nieznany format obrazu RAS
+Brak pamięci na wczytanie obrazu RAS
+Rastrowy format obrazu firmy SUN
+Obraz TGA ma nieprawidłowe wymiary
+devurandom nie jest urządzeniem znakowym
+nie można odnaleźć użytkownika w systemie
+nie można połączyć się do nadrzędnego ekranu
+Serwer powinien zostać uruchomiony przez użytkownika, ale taki użytkownik nie istnieje
+Nie można ustawić identyfikatora grupy na
+Funkcja się nie powiodła dla
+Nie można ustawić identyfikatora użytkownika na
+błąd przy ustawianiu na
+nie można ustawić priorytetu serwera na
+puste polecenie serwera dla ekranu
+Nazwa użytkownika
+Nazwa komputera
+Urządzenie wyświetlające
+Nazwa urządzenia wyświetlającego
+brak konta użytkownika
+Nie można zmienić użytkownika
+Nie można utworzyć gniazda
+Wyświetla wersję GDM
+Menedżer wyświetlania
+Proces roboczy menedżera wyświetlania
+Identyfikator ekranu
+Proces podrzędny menedżera wyświetlania
+Okno logowania
+Składanie i zarządzanie oknami
+Nie można utworzyć przejściowego ekranu
+Wybór systemu
+XDMCP nie można utworzyć bufora XDMCP
+XDMCP nie można odczytać nagłówka XDMCP
+XDMCP niepoprawna wersja XDMCP.
+XDMCP nie można przetworzyć adresu
+Nie można zainicjować systemu logowania
+Nie można uwierzytelnić użytkownika
+Nie można autoryzować użytkownika
+Nie można określić danych uwierzytelniania
+błąd podczas inicjowania negocjacji z systemem uwierzytelniania
+błąd ogólny
+brak pamięci
+błąd programisty
+nieznany błąd
+Grupa nie istnieje
+Katalog dziennikanie istnieje lub nie jest katalogiem.
+Lupa ekranowa
+Powiększa części ekranu
+Czytnik ekranowy Orca
+Prezentuje informacje wyświetlane na ekranie w postaci mowy lub za pomocą alfabetu Braillea
+XMDXP niepoprawna wersja XDMCP.
+XMDCP nie można przetworzyć adresu
+Wartość
+Tekst nieaktywny
+Tekst aktywny
+Proszę wybrać język i nacisnąć przycisk Zaloguj
+Wersja
+Uśpij
+Uruchom ponownie
+Wyłącz
+Panel
+Tekst etykiety
+Tekst użyty jako etykieta
+Nazwa ikony
+Ikona do użycia z etykietą
+Element domyślny
+Logowanie zdalne połączono z
+Nie można odnaleźć sesji dla użytkownika
+Edytor obrazów
+Wyświetla informację o wersji i kończy działanie
+Wyświetla informację o licencji i kończy działanie
+Wyświetla więcej informacji
+Uruchamia nową kopię programu
+Otwiera obraz jako nowy
+Uruchamia bez interfejsu użytkownika
+Nie wczytuje żadnych czcionek
+Nie wyświetla ekranu powitalnego
+PLIK BARURI
+Inna kopia programu jest już uruchomiona.
+wersja
+Kanały
+Paleta kolorów
+Konfiguracja
+Kontekst
+Debugowanie
+Okna dialogowe
+Dokowanie
+Element dokowalny
+Historia dokumentów
+Modyfikacja
+Konsola błędów
+Plik
+Edytor gradientów
+Gradienty
+Pomoc
+Obraz
+Obrazy
+Warstwy
+Edytor palety
+Palety
+Desenie
+Wtyczki
+Szybka maska
+Zaznaczenie
+Szablony
+Edytor tekstowy
+Opcje narzędzia
+Narzędzia
+Ścieżki
+Widok
+Okna
+Usuń bufor
+Usuń wybrany bufor
+Modyfikuj kolor
+Modyfikuj barwę
+Modyfikuj wybrany kolor
+Modyfikuj wybraną barwę
+Menu buforów
+Paleta barw
+Edytuj barwę
+Edytuj kolor
+Kolory
+Narzędzie
+Paleta
+Czcionka
+Bez nazwy
+Narzędzia
+Opcje narzędzia
+Warstwy
+Kanały
+Ścieżki
+Paleta kolorów
+Historia dokumentów
+Desenie
+Gradienty
+Edytor gradientów
+Palety
+Edytor palet
+Menu buforów
+Obrazy
+Szablony
+Konsola błędów
+Okna dialogowe
+Rozmiar pliku
+Usuń wybrany bufor
+Edycja
+Usuń bufor
+gradient
+Pomoc
+Kontekst
+Obraz
+widok
+Warstwy
+Warstwa
+Nowa warstwa
+Usuń warstwę
+Filtry
+Konfiguracja
+Zaznaczenie
+Szablony
+Opcje narzędzia
+Narzędzia

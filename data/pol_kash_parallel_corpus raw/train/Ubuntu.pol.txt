@@ -1,0 +1,145 @@
+Narzędzie do kompresji/dekompresji zip
+System kontroli wersji Bazaar
+Łatwy w użyciu system kontroli wersji
+Binarny sterownik X.Org ATI
+Zoptymalizowane przyśpieszanie sprzętowe OpenGL dla nowszych kart graficznych ATI
+Instalator wtyczki Adobe Flash dla Mozilli Firefox
+Wtyczka Adobe Flash
+Narzędzia pulpitu
+Słownik, analizator użycia dysku twardego, przeglądarka plików raportów, narzędzie wyszukujące
+Wtyczka Java
+Wtyczka Java dla przeglądarek internetowych
+Kernel Panic
+Powszechnie używane programy z ograniczonymi dla Kubuntu
+Ograniczone dodatki Kubuntu
+LXDE Lekkie środowisko graficzne
+Metapakiet dla
+Klient MySQL
+Serwer MySQL
+Binarny sterownik NVidia
+wersja sterownika
+Akceleracja sprzętowa OpenGL dla kart graficznych NVidia
+Binarny sterownik
+Akceleracja sprzętowa OpenGL dla starszych kart graficznych NVidia
+Kolekcja darmowych plików ClipArt
+do komunikacji
+Przerwano na żądanie użytkownika.
+Niedopuszczalny znak w URI
+Biały znak zawarty w klucz=wartość
+Wyjątek
+Adres URL jest za długi
+Nie udało się włączyć
+Nieznany kanał
+Kanał jest nieznany
+Nie udało się włączyć kanału
+Nieprawidłowy plik
+Indeks oprogramowania jest uszkodzony
+Jest to poważny błąd systemu zarządzania pakietami.
+Proszę poszukać uszkodzonych pakietów za pomocą programu Synaptic.
+Sprawdzić prawa dostępu do plików oraz poprawność pliku etcaptsources.list
+A następnie odświeżyć informacje o pakietach za pomocą polecenia sudo apt-get update i sudo apt-get install -f.
+kończenie działania
+Podano nieprawidłowy adres URL
+Nieobsługiwany protokół
+Pakiet jest pakietem wirtualnym.
+Nie można odnaleźć pakietu.
+Pakiet już jest zainstalowany
+Nie można zainstalować
+Pakiet wymaga co najmniej wersji 2, ale dostępna jest tylko 1
+Włącz dodatkowe komponenty
+Włączenie dodatkowego kanału oprogramowania
+Włączyć następujący kanał oprogramowania?
+Zainstalować dodatkowe oprogramowanie?
+Zainstalować pakiet?
+Opis
+Zainstaluj
+Określa czy polecenie powinno obsługiwać URL-e typu apt
+Określa, czy polecenie wyszczególnione w kluczu powinno obsługiwać URL-e typu apt.
+Program obsługujący adresy URL typu apt
+Polecenie używane do obsługi adresów URL typu apt, jeśli włączone.
+Uruchom polecenie w terminalu
+Określa, czy polecenie obsługujące ten typ adresu URL powinno być wykonywane w terminalu.
+OK
+Anuluj
+Uruchom ponownie
+Kontynuuj
+Opcje rozruchu
+Kończenie
+Opuszczasz graficzne menu uruchamiania i rozpoczynasz tryb interfejsu tekstowego.
+Pomoc
+Program rozruchowy
+Błąd IO
+Zmiana nośnika rozruchowego
+Proszę wsunąć nośnik rozruchowy.
+To jest nośnik rozruchowy. Proszę wsunąć nośnik rozruchowy.
+To nie jest odpowiedni nośnik rozruchowy. Proszę wsunąć nośnik rozruchowy.
+Hasło
+Proszę wprowadzić hasło
+Błąd DVD
+To jest dwustronna płyta DVD. Uruchomiono system z drugiej strony płyty. Proszę odwrócić płytę DVD i kontynuować.
+Wyłącz
+Zatrzymać działanie systemu?
+Inne opcje
+Język
+Klawiatura
+Tryby
+Zwykły
+Tryb zaawansowany
+Ułatwienia dostępu
+Brak
+Wysoki kontrast
+Lupa
+Czytnik ekranu
+Terminal Braillea
+Modyfikatory klawiatury
+Klawiatura ekranowa
+Problemy ruchowe - urządzenia przełączające
+Wszystko
+Wypróbuj Ubuntu bez instalowania
+Wypróbuj Kubuntu bez instalowania
+Wypróbuj Edubuntu bez instalowania
+Wypróbuj Xubuntu bez instalowania
+Wypróbuj Ubuntu MID bez instalowania
+Wypróbuj Ubuntu Netbook bez instalowania
+Wypróbuj Kubuntu Netbook bez instalowania
+Wypróbuj Lubuntu bez instalowania
+Uruchom Kubuntu
+Użycie nośnika aktualizującego sterowniki
+Zainstaluj Ubuntu w trybie tekstowym
+Zainstaluj Kubuntu w trybie tekstowym
+Zainstaluj Edubuntu w trybie tekstowym
+Zainstaluj Xubuntu w trybie tekstowym
+Zainstaluj Ubuntu
+Zainstaluj Kubuntu
+Zainstaluj Edubuntu
+Zainstaluj Xubuntu
+Zainstaluj serwer Ubuntu
+Wielokrotna instalacja serwera z MAAS
+Zainstaluj Ubuntu Studio
+Zainstaluj Ubuntu MID
+Zainstaluj Ubuntu Netbook
+Instalacja Kubuntu Netbook
+Zainstaluj Lubuntu
+Instalacja stacji roboczej
+Instalacja serwera
+Instalacja OEM dla producentów sprzętu
+Instalacja serwera LAMP
+Instalacja serwera LTSP
+Instalacja bezdyskowego serwera
+Instalacja systemu opartego o wiersz poleceń
+Instalacja systemu minimalnego
+Instalacja minimalnej maszyny wirtualnej
+Sprawdź płytę pod kątem błędów odczytu
+Napraw uszkodzony system
+Test pamięci
+Uruchom system z pierwszego dysku twardego
+Tylko wolne oprogramowanie
+Automatyczna reinstalacja Dell
+Zainstaluj Mythbuntu
+Wypróbuj Mythbuntu bez instalowania
+Programnie jest obecnie zainstalowany.
+Możesz go zainstalować wpisując
+Aby uruchomićpoproś swojego administratora o zainstalowanie pakietu
+Programmożna znaleźć w następujących pakietch
+Spróbuj
+Poproś swojego administratora o zainstalowanie jednego z nich

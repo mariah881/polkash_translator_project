@@ -1,0 +1,255 @@
+Domëslny mòtiw
+Menedżera archiwów
+Ùsôdzanié ë zmianë archiwów
+Rozpakùjë tuwò
+Rozpakùjë do
+Jinszé òptacëje
+Ladëjë òptacëje
+Jinszé òptacëje
+Ùsôdzë
+Pòłożenié
+Jinszé òptacëje
+Parola
+Rëmôj
+Na przëmiôr .txt; .doc
+Wszëtczé lopczi
+Wëbróné lopczi
+Jinszé òptacëje
+Zaktualni
+Proszã wëbrac lopczi do zaktualnienia
+Lopczi
+Rozpakùjë tuwò
+Nóternô je parola
+Òtemkniãce lopka nie darzëło sã
+Lopk z òbrôzãnie zamëkô w se pòdôwków
+Wczëtanié òbrôzu nie darzëło sã
+nieznónô przëczëna
+prawdopòdóbno lopk z felą
+Nie mòże òdczëtac animacëji
+prawdopòdóbno lopk animacëji mô felã
+Nie mòże wladowac mòdulu czëtaniô òbrôzów
+Mòdul do wladowania òbrôzów nie ekspòrtëjë gwësnegò interfejsu
+Czë mòże bëc, że je òn z jinëj wersëji GTK?
+Òbrôżë ôrtunie są wspieróné
+Nie mòże pòznac fòrmatu òbrôzu w lopkù
+Nierozpòznóny fòrmat lopka z òbrôzã
+Nie mòże wladowac òbrôzu
+Fela przë zapisënkù do lopka òbrôzu
+Ta kòpiëjô gdk-pixbuf nie zezwôlô na zapisënk òbrôzu w fòrmace
+Felëjë pamiãcë bë zapisac òbrôz do òdczëtaniô
+Nie mòże òtemknąc timczasowégò lopka
+Nie mòże czëtac timczasowégò lopka
+Nie mòże òtemknąc do zapisënkù
+Nie mòże zamknąc lopkapò zapisaniém w nim òbrôzu.
+Mògło dońc do niezapisania dzélu pòdôwków
+Felëjë pamiãcë bë zapisac òbrôz do bùfora
+Bënowô fela Mòdułòdczëtëjący òbrôżë nie skùczëł òperacëji, nie pòdając przëczënë nieùdałoscë
+Fùnkcëjô przërostowégò òdczëtu òbrôzów ôrtu nie je wspieranô.
+Nieznóny fòrmat òbrôzu
+Zmiłkòwi nagłówk animacëji
+Felëjë pamiãcë do wladowaniô animacëji
+Fòrmat òbrôzu ANI
+Zmiłkòwi nagłówk òbrôzu BMP
+Felëjë pamiãcë na òdczëtanié bitmapë z lopkù
+Nie je mòżno zapisac do lopkù BMP
+Fòrmat òbrôzu BMP
+Fòrmat òbrôzu GIF
+Fòrmat òbrôzu ICO
+Jakòsc òbrôzu JPEG mùszi bëc wôrtnotą òd 0 do 100; wôrtnota nie je pòprôwna.
+Fòrmat òbrôzu JPEG
+Felô prze òdczëtanim òbrôzu GIF
+Bënowô fela przë mòdule òdczëtaniô òbrôzów GIF
+Felëjë pamiãcë na òdczëtanié lopkù GIF
+Felëjë pamiãcë na zrobienié ramë w lopkù GIF
+Lopk mést nie je lopkã GIF
+Zmiłkòwi nagłówk ikònë
+Felëjë pamiãcë na òdczëtanié ikònë
+Szérz ikònë je zerowô
+Wiżô ikònë je zerowô
+Felëjë pamiãcë na òdczëtanié lopkù ICO
+Òbrôz je za wiôldżi, żebë móc zapisac gò jakò ICO
+Felô przë interpretacëji lopkù z òbrôzã JPEG
+Felëjë pamiãcë na òdczëtanié lopkù.
+Spróbùjë zasztëkac jaczé programë abë zwòlnic pamiãc
+Felëjë pamiãcë na òdczëtanié lopkù JPEG
+Nie je mòżno zrobic nowégò bùfora piksmapë
+Felëjë pamiãcë na òdczëtanié lopkù JPEG
+Nie je nalazłô paléta na kùńcu pòdôwków PCX
+Fòrmat òbrôzu PCX
+Fòrmat òbrôzu GIF
+Lëczba bitów na kanal òbrôzu PNG nie je pòprôwnô.
+Felëjë pamiãcë na òdczëtanié lopkù PNG
+Felëjë pamiãcë na òdczëtanié lopkù
+spróbùjë zasztëkac jaczé programë abë zwòlnic pamiãc
+Klucze tekstowëch elementów PNG mùszą miec długòtã òd do céchów.
+Klucze tekstowëch elementów PNG mùszą byc céchama ASCII.
+Fòrmat òbrôzu PNG
+Lopk PNM zamëkô w se niepòprôwny zaczątkòwi bajt
+Plik PNM zamëkô w se òbrôz ò szérzë
+Plik PNM zamëkô w se òbrôz ò wiżë
+Maksymalnô wôrtnota farwë w lopkù PNM je
+Maksymalnô wôrtnota farwë w lopkù PNM je za wiôlgô
+Felëjë pamiãcë na wladowanié strukturë kòntekstu PNM
+Felëjë pamiãcë na òdczëtanié lopkù PNM
+Zmiłkòwi nagłówk òbrôzu RAS
+Nieznóny fòrmat òbrôzu RAS
+Felëjë pamiãcë na òdczëtanié òbrôzu RAS
+Rastrowi fòrmat òbrôzu firmë SUN
+Òbrôz TGA mô zmiłkòwe miarë
+devurandom nie je céchòwim ùrządzeniém
+ni mòże nalezc w systemie brëkòwnika
+ni mòże sparłãczëc sã z wëższim ekranã
+Serwer mô bëc zrëszony przez brëkòwnika, taczegò równak nie dô
+Ni mòże nastôwic identifikatorã karna na
+Fùnkcëjô nie darzëła sã dlô
+Ni mòżé nastôwic identifikatora brëkòwanika na
+fela nastôwù na
+ni mòże nastôwic prioritetu serwera na
+pùsti pòlet serwera dlô ekranu
+Miono brëkòwnika
+Miono kòmpùtra
+Ùrządzenié wëskrzëniającé
+Miono wëskrzëniającégò ùrządzenia
+felënk kònta brëkòwnika
+Ni mòże zmienic brëkòwnika
+Ni mòże ùsôdzëc gniôzda
+Wëskrzëniô wersëjã GDM
+Menedżera wëskrzënianiô
+Robòczô sesëjô menadżera wëskrzënianiô
+Identifikatora ekranu
+Niższi proces menadżera wëskrzënianiô
+Òkno logòwaniô
+Ùsłëżnota sprôwianiô sëłą
+ni mòże sparłãczëc sã z wëższim ekranã
+Wëbiérk systemë
+XDMCP ni mòże ùsôdzëc bùfora XDMCP
+XDMCP ni mòże czëtac nôdgłówka XDMCP
+XMDXP lëchô wersëjô XDMCP.
+XMDCP ni mòże przerobic adresë
+Ni mòże zainicjowac systemë logòwaniô
+Ni mòże ùdowierzëc brëkòwnika
+Ni mòże aùtorizowac brëkòwnika
+Ni mòże òpisac pòdôwków ùdowierzëniô
+fela przë inicjowaniu negòcjacëji z systemą ùdowierzëniô
+òglowô fela
+felënk pamiãcë
+fela programistë
+nieznónô fela
+Felëje karno
+Felëje katalog dniownika abò nie je katalogã.
+Ekranowô lupa
+Zwikszanié dzélów ekranu
+Ekranowi czëtôrz Orca
+Prezentacëjô na ekranie wëdowiédzë jakno mòwë abò brailla
+XMDXP lëchô wersëjô XDMCP.
+XMDCP ni mòże przerobic adresë
+Wôrtnota
+Niekatiwny tekst
+Aktiwny tekst
+Proszã wëbrac jãzëk ë klëknąc na knąpã Wlogùjë
+Wersëjô
+Zawieszë
+Zrëszë znowa
+Wëłączë
+Panel
+Tekst eticzétë
+Tekst ùżëti jakno eticzéta
+Miono ikònë
+Ikòna do ùżëcô z eticzétą
+Domëslny element
+Daleczé logòwanié sparłãczono z
+Brëkòwnikju je
+ora òbrôzów
+Wëskrzëniô wëdowiédzã ò wersëji ë wëchòdzy
+Wëskrzëniô wëdowiédzã ò licencëji ë wëchòdzy
+Wëskrzëniô dodôwną wëdowiédzã
+Zrëszô nową kòpijã programë
+Òtmëkô òbrazë jakno nowé
+Zrëszô bez interfejsu brëkòwnika
+Nie ladëjë niżódnych fòntów
+Nie wëskrzëniôj startowégò òkna
+LOPK BARURI
+Jinszô programa je ju zrëszonô.
+wersëjô
+Kanalë
+Paléta farwów
+Kònfigùracëjô
+Kòntekst
+Debùgòwanié
+Dialogòwé òkna
+Dokòwanié
+Zadokòwóné
+Historëjô dokùmentów
+Edicëjô
+Kònsola felów
+Lopk
+orë gradientów
+Gradientë
+Pòmòc
+Òbrôz
+Òbrôzczi
+Lédżi
+ora palétë
+Palétë
+Mùsterë
+Wtëkôcze
+Chùtkô maska
+Wëbiérk
+Szablónë
+Tekstowi ora
+Òptacëje nôrzãdza
+Nôrzãdza
+Stegnë
+Pòdzérk
+Òkna
+Rëmôj bùfor
+Rëmô wëbróny bùfor
+ëjë farwã
+ëjë farwã
+ëjë wëbróny farwã
+ëjë wëbróny farwã
+Menu bùforów
+Paléta farwów
+ëjë farwã
+ëjë farwã
+Farwë
+Nôrzãdze
+Paléta
+Fònt
+Bez miona
+Nôrzãdza
+Òptacëje nôrzãdza
+Lédżi
+Kanalë
+Stegnë
+Paléta farwów
+Historëjô dokùmentów
+Mùsterë
+Gradientë
+orë gradientów
+Palétë
+ora palétë
+Menu bùforów
+Òbrôzk
+Szablónë
+Kònsola felów
+Dialogòwé òkna
+Miara lopka
+Rëmô wëbróny bùfor
+Edicëjô
+Rëmôj bùfor
+gradientë
+Pòmòc
+Kòntekst
+Òbrôzk
+wëzdrzatk
+Lédżi
+Léga
+Nowô léga
+Rëmôj léga
+Filtrë
+Kònfigùracëjô
+Wëbiérk
+Szablónë
+Òptacëje nôrzãdza
+Nôrzãdza
