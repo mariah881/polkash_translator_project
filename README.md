@@ -15,6 +15,7 @@ The data set contains about 120,000 Polish words and sentences and their transla
 
 
 ## Installation 
+Before starting, make sure you have *Python 3.9.6 or later* and *pip 25.0.1 or later* installed.
 1. Clone the repository
     ```bash
    git clone git@github.com:mariah881/polkash_translator_project.git
