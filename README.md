@@ -11,7 +11,7 @@ The model was trained and evaluated using the Polish-Kashubian Parallel Translat
 
 ## Dataset: Polish-Kashubian parallel translation corpus
 
-The data set contains about 120,000 Polish words and sentences and their translations into Kashubian. It was created using two types of sources: online dictionaries and an existing dataset. The dataset was pre-cleaned and duplicates were removed (Olewniczak et al., 2024).
+The data set contains about 120,000 Polish words and sentences and their translations into Kashubian. It was created using two types of sources: online dictionaries and an existing dataset. The dataset was pre-cleaned (Olewniczak et al., 2024).
 
 
 ## Installation 
