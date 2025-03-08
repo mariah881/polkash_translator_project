@@ -125,6 +125,7 @@ Unfortunately, the model does not produce correct translations. The results sugg
 #### Team Contribution
 
 **Maria:** Preprocessing, Seq2Seq implementation, training, inference.
+
 **Agata:** Encoder, attention mechanism, decoder, early stopping.
 
 
