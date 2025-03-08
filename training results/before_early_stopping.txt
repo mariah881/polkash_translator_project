@@ -1,0 +1,126 @@
+Epoch count: 1/5
+Batch 0, Loss: 10.9768
+Batch 100, Loss: 3.0178
+Batch 200, Loss: 2.1855
+Batch 300, Loss: 1.3359
+Batch 400, Loss: 2.5271
+Batch 500, Loss: 1.5565
+Batch 600, Loss: 1.8099
+Batch 700, Loss: 1.6753
+Batch 800, Loss: 2.4349
+Batch 900, Loss: 1.6681
+Batch 1000, Loss: 2.7272
+Batch 1100, Loss: 1.4372
+Batch 1200, Loss: 1.9641
+Batch 1300, Loss: 1.8486
+Batch 1400, Loss: 2.2240
+Batch 1500, Loss: 2.2654
+Batch 1600, Loss: 2.1071
+Batch 1700, Loss: 3.2180
+Batch 1800, Loss: 2.3011
+Batch 1900, Loss: 2.6098
+Batch 2000, Loss: 2.6215
+Train loss: 2.4076
+Validation Loss: 4.9386
+Model saved!
+================================================== End of Epoch 1 ==================================================
+Epoch count: 2/5
+Batch 0, Loss: 2.3359
+Batch 100, Loss: 2.6620
+Batch 200, Loss: 2.5377
+Batch 300, Loss: 2.9520
+Batch 400, Loss: 2.0827
+Batch 500, Loss: 2.8959
+Batch 600, Loss: 3.0646
+Batch 700, Loss: 2.7244
+Batch 800, Loss: 0.8961
+Batch 900, Loss: 2.0182
+Batch 1000, Loss: 1.8791
+Batch 1100, Loss: 2.2232
+Batch 1200, Loss: 2.7777
+Batch 1300, Loss: 2.2478
+Batch 1400, Loss: 1.8880
+Batch 1500, Loss: 1.8744
+Batch 1600, Loss: 2.1151
+Batch 1700, Loss: 1.7541
+Batch 1800, Loss: 2.9394
+Batch 1900, Loss: 2.1147
+Batch 2000, Loss: 1.7405
+Train loss: 2.1988
+Validation Loss: 5.0571
+================================================== End of Epoch 2 ==================================================
+Epoch count: 3/5
+Batch 0, Loss: 2.0983
+Batch 100, Loss: 1.7616
+Batch 200, Loss: 1.7421
+Batch 300, Loss: 1.9943
+Batch 400, Loss: 1.9291
+Batch 500, Loss: 2.2572
+Batch 600, Loss: 1.8697
+Batch 700, Loss: 2.4586
+Batch 800, Loss: 2.1073
+Batch 900, Loss: 2.2731
+Batch 1000, Loss: 2.1104
+Batch 1100, Loss: 2.8312
+Batch 1200, Loss: 1.8945
+Batch 1300, Loss: 2.5396
+Batch 1400, Loss: 2.3053
+Batch 1500, Loss: 2.1236
+Batch 1600, Loss: 1.8721
+Batch 1700, Loss: 1.5973
+Batch 1800, Loss: 2.8202
+Batch 1900, Loss: 2.3461
+Batch 2000, Loss: 2.0253
+Train loss: 2.1659
+Validation Loss: 5.3781
+================================================== End of Epoch 3 ==================================================
+Epoch count: 4/5
+Batch 0, Loss: 2.4064
+Batch 100, Loss: 1.7576
+Batch 200, Loss: 1.9660
+Batch 300, Loss: 2.2769
+Batch 400, Loss: 1.7311
+Batch 500, Loss: 1.6781
+Batch 600, Loss: 2.4482
+Batch 700, Loss: 2.0547
+Batch 800, Loss: 3.1858
+Batch 900, Loss: 1.7281
+Batch 1000, Loss: 1.6777
+Batch 1100, Loss: 2.8693
+Batch 1200, Loss: 3.3121
+Batch 1300, Loss: 1.6154
+Batch 1400, Loss: 1.8579
+Batch 1500, Loss: 2.0296
+Batch 1600, Loss: 1.9020
+Batch 1700, Loss: 1.9880
+Batch 1800, Loss: 1.9414
+Batch 1900, Loss: 1.7684
+Batch 2000, Loss: 2.5133
+Train loss: 2.1384
+Validation Loss: 5.4701
+================================================== End of Epoch 4 ==================================================
+Epoch count: 5/5
+Batch 0, Loss: 1.6145
+Batch 100, Loss: 2.3016
+Batch 200, Loss: 2.1771
+Batch 300, Loss: 1.9106
+Batch 400, Loss: 1.9049
+Batch 500, Loss: 1.6901
+Batch 600, Loss: 1.5984
+Batch 700, Loss: 2.5884
+Batch 800, Loss: 2.4217
+Batch 900, Loss: 2.3294
+Batch 1000, Loss: 2.2142
+Batch 1100, Loss: 2.5240
+Batch 1200, Loss: 1.9737
+Batch 1300, Loss: 3.1359
+Batch 1400, Loss: 1.7757
+Batch 1500, Loss: 1.8274
+Batch 1600, Loss: 2.1248
+Batch 1700, Loss: 3.2161
+Batch 1800, Loss: 1.7726
+Batch 1900, Loss: 2.6931
+Batch 2000, Loss: 2.6950
+Train loss: 2.1105
+Validation Loss: 5.3397
+================================================== End of Epoch 5 ==================================================

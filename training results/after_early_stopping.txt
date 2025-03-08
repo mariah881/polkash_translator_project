@@ -1,0 +1,60 @@
+
+Epoch count: 1/5\
+Batch 0, Loss: 11.0370\
+Batch 100, Loss: 2.3701\
+Batch 200, Loss: 2.4631\
+Batch 300, Loss: 3.0485\
+Batch 400, Loss: 1.8112\
+Batch 500, Loss: 2.2454\
+Batch 600, Loss: 2.0216\
+Batch 700, Loss: 2.0038\
+Batch 800, Loss: 2.3832\
+Batch 900, Loss: 2.5033\
+Batch 1000, Loss: 2.2886\
+Train loss: 2.4848\
+Validation loss: 4.4172\
+Epoch count: 2/5\
+Batch 0, Loss: 1.5342\
+Batch 100, Loss: 2.4123\
+Batch 200, Loss: 2.0413\
+Batch 300, Loss: 2.7124\
+Batch 400, Loss: 2.2348\
+Batch 500, Loss: 1.9912\
+Batch 600, Loss: 2.5502\
+Batch 700, Loss: 2.4668\
+Batch 800, Loss: 2.7645\
+Batch 900, Loss: 2.7687\
+Batch 1000, Loss: 2.0060\
+Train loss: 2.2482\
+Validation loss: 4.4449\
+Epoch count: 3/5\
+Batch 0, Loss: 2.1026\
+Batch 100, Loss: 2.0711\
+Batch 200, Loss: 2.3095\
+Batch 300, Loss: 2.1934\
+Batch 400, Loss: 2.7581\
+Batch 500, Loss: 1.6445\
+Batch 600, Loss: 2.6154\
+Batch 700, Loss: 2.0866\
+Batch 800, Loss: 1.9396\
+Batch 900, Loss: 2.4881\
+Batch 1000, Loss: 2.3807\
+Train loss: 2.2162\
+Validation loss: 4.4967\
+Early stopping triggered.\
+Seq2Seq(\
+  (encoder): EncoderGRU(\
+    (embedding): Embedding(56244, 256)\
+    (gru): GRU(256, 128, num_layers=2, batch_first=True, dropout=0.3)\
+  )\
+  (decoder): DecoderGRU(\
+    (embedding): Embedding(60135, 256)\
+    (gru): GRU(384, 128, num_layers=2, batch_first=True, dropout=0.3)\
+    (fc_out): Linear(in_features=256, out_features=60135, bias=True)\
+    (dropout): Dropout(p=0.3, inplace=False)\
+  )\
+  (attention): Attention(\
+    (attn): Linear(in_features=256, out_features=128, bias=True)\
+  )\
+)\cf2 \cb1 \
+}

@@ -80,6 +80,53 @@ Performs sentence translation using the trained model.
 - `inference` – Tokenizes input, converts it to indices, runs inference, and reconstructs the translated sentence.
 
 
+## Model Selection and Parameters
+
+For our machine translation system, we chose a **Seq2Seq model with an Attention mechanism**, utilizing **GRU** (Gated Recurrent Unit) as the sequence-processing unit. The main reasons for this choice are:
+
+- **GRU efficiency in sequence processing** – compared to LSTM, GRU has fewer parameters, which means faster training and lower memory requirements while maintaining comparable performance.
+- **Attention mechanism** – allows the model to dynamically "focus" on different parts of the input sentence, improving translation quality, especially for longer sequences.
+
+
+### Hyperparameters:
+
+- **Embedding dimension: 256** – a balance between word representation quality and computational cost.
+- **Number of layers: 2** – sufficient to model sentence dependencies without excessively increasing computation time.
+- **Hidden size: 128** – chosen experimentally to ensure sufficient model expressiveness without overloading the GPU.
+- **Dropout: 0.3** – added to reduce overfitting.
+- **Learning rate: 0.0005** – chosen to ensure stable training without overly slow convergence.
+- **Optimizer: Adam** – provides adaptive learning rate adjustment.
+
+
+## Overfitting and Its Solution
+
+Initially, our model showed signs of overfitting – it trained for too long, even when the validation loss started increasing. Loss analysis showed:
+
+**Before adding early stopping:**
+
+The model trained for the full 5 epochs, despite the validation loss increasing after the first epoch. In epochs 2–5 training loss continued improving (~2.11 by epoch 5), but validation loss rose to 5.47 in epoch 4, then slightly decreased to 5.33 in epoch 5. It means the model "memorized" the training data instead of generalizing.
+
+**After adding early stopping:**
+
+Training stopped after 3 epochs (we used `patience = 2`, meaning training stops if validation loss does not improve for 2 consecutive epochs).
+- **Epoch 1:** training loss **2.48**, validation loss **4.41**.
+- **Epoch 2:** training loss **2.24**, validation loss **4.44**.
+- **Epoch 3:** training loss **2.21**, validation loss **4.49** (worse, triggering early stopping).
+
+**Effects:**
+- The model did not overfit, and validation results were better than before (validation loss dropped from **5.47 to 4.49**).
+
+ Training results can be found in the `training_results/` folder.
+
+### Model Performance
+
+Unfortunately, the model does not produce correct translations. The results suggest that the training process did not converge properly, likely due to insufficient training data, suboptimal hyperparameters, or an inadequate learning rate. Further improvements could involve fine-tuning the training process, experimenting with different architectures, or expanding the dataset to improve generalization.
+
+#### Team Contribution
+
+**Maria:** Preprocessing, Seq2Seq implementation, training, inference.
+**Agata:** Encoder, attention mechanism, decoder, early stopping.
+
 
 ## References
 
